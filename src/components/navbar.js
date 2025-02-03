@@ -40,6 +40,7 @@ const Navbar = ({ searchText, setSearchText }) => {
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
+    setIsDropdownVisible(false);
     navigate('/search');
   };
 
