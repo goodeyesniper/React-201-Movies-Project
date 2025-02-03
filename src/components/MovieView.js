@@ -13,7 +13,7 @@ const MovieView = () => {
       method: 'GET',
       headers: {
         accept: 'application/json',
-        Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwZWQ2MjFjMDczMTdjODNiOWYwNmFlNGZhNzUxOTEyYiIsIm5iZiI6MTczODMwNTc2NC40MDUsInN1YiI6IjY3OWM3MGU0MTZmZjgzMmU1N2JkZGZkNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.sKk3rlW-OQPRa-KuqJBZFbgcPjXPVJAblzP2WdWOiX4'
+        Authorization: `Bearer ${process.env.REACT_APP_API_KEY}`
       }
     };
 
